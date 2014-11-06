@@ -16,7 +16,8 @@ import json
 import Queue
 import adafruitbbio.GPIO as GPIO
 import adafruitbbio.ADC as ADC
-import MySQLdb
+import MySQLdb # MySQLdb was all I could find at the time I wrote this... 
+              # Mongodb would probably be much better, and more up to date
 
 ### ­­>SET DATA PARAMETERS
 ### (see data management section for more details)
